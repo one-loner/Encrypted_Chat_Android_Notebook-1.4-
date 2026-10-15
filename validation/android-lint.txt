@@ -1,0 +1,43 @@
+/Users/lirtm/Developer/Codex/2026-10-13/android-android-studio-api-24-https/outputs/EncryptedChatAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:1: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+/Users/lirtm/Developer/Codex/2026-10-13/android-android-studio-api-24-https/outputs/EncryptedChatAndroid/app/src/main/java/com/loner/encryptedchat/MainActivity.java:422: Warning: Use "Gravity.END" instead of "Gravity.RIGHT" to ensure correct behavior in right-to-left locales [RtlHardcoded]
+                position.gravity=side==MessageLayout.Side.RIGHT?Gravity.RIGHT:Gravity.LEFT;position.bottomMargin=dp(8);messages.addView(card,position);
+                                                                        ~~~~~
+/Users/lirtm/Developer/Codex/2026-10-13/android-android-studio-api-24-https/outputs/EncryptedChatAndroid/app/src/main/java/com/loner/encryptedchat/MainActivity.java:422: Warning: Use "Gravity.START" instead of "Gravity.LEFT" to ensure correct behavior in right-to-left locales [RtlHardcoded]
+                position.gravity=side==MessageLayout.Side.RIGHT?Gravity.RIGHT:Gravity.LEFT;position.bottomMargin=dp(8);messages.addView(card,position);
+                                                                                      ~~~~
+
+   Explanation for issues of type "RtlHardcoded":
+   Using Gravity#LEFT and Gravity#RIGHT can lead to problems when a layout is
+   rendered in locales where text flows from right to left. Use Gravity#START
+   and Gravity#END instead. Similarly, in XML gravity and layout_gravity
+   attributes, use start rather than left.
+
+   For XML attributes such as paddingLeft and layout_marginLeft, use
+   paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less
+   than 17, you should add both the older left/right attributes as well as the
+   new start/end attributes. On older platforms, where RTL is not supported
+   and the start/end attributes are unknown and therefore ignored, you need
+   the older left/right attributes. There is a separate lint check which
+   catches that type of error.
+
+   (Note: For Gravity#LEFT and Gravity#START, you can use these constants even
+   when targeting older platforms, because the start bitmask is a superset of
+   the left bitmask. Therefore, you can use gravity="start" rather than
+   gravity="left|start".)
+
+0 errors, 3 warnings

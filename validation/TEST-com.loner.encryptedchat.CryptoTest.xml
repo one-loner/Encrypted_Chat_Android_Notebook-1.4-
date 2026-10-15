@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.loner.encryptedchat.CryptoTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-15T17:35:49" hostname="MacBook-Pro-Andrey.local" time="7.598">
+  <properties/>
+  <testcase name="roomNameIsPartOfKeyDerivation" classname="com.loner.encryptedchat.CryptoTest" time="1.562"/>
+  <testcase name="pbkdf2PublishedSha256Vector" classname="com.loner.encryptedchat.CryptoTest" time="0.0"/>
+  <testcase name="unicodeRoomMatchesIndependentPythonVector" classname="com.loner.encryptedchat.CryptoTest" time="0.753"/>
+  <testcase name="wrongPasswordAndTamperingAreRejected" classname="com.loner.encryptedchat.CryptoTest" time="2.25"/>
+  <testcase name="backupRoundTripIncludesEveryChatAndKey" classname="com.loner.encryptedchat.CryptoTest" time="2.293"/>
+  <testcase name="unboundedKdfFromBackupIsRejected" classname="com.loner.encryptedchat.CryptoTest" time="0.738"/>
+  <testcase name="aes256GcmNistVectorIncludesWebCryptoTag" classname="com.loner.encryptedchat.CryptoTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

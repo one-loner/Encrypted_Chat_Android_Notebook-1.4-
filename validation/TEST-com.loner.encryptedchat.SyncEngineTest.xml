@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.loner.encryptedchat.SyncEngineTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-15T17:35:57" hostname="MacBook-Pro-Andrey.local" time="5.062">
+  <properties/>
+  <testcase name="slowFailedServerDoesNotDelaySuccessfulDeliveryToAnother" classname="com.loner.encryptedchat.SyncEngineTest" time="5.016"/>
+  <testcase name="connectionProbeTestsLoginWithoutReadingAnyMessages" classname="com.loner.encryptedchat.SyncEngineTest" time="0.015"/>
+  <testcase name="uncertainRetryReconcilesBeforePostAndDoesNotSendAgain" classname="com.loner.encryptedchat.SyncEngineTest" time="0.011"/>
+  <testcase name="removingChatPreventsQueuedNetworkWork" classname="com.loner.encryptedchat.SyncEngineTest" time="0.001"/>
+  <testcase name="revokedSessionRequiresExplicitReconnect" classname="com.loner.encryptedchat.SyncEngineTest" time="0.018"/>
+  <testcase name="closedApiCannotIssueNewRequests" classname="com.loner.encryptedchat.SyncEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

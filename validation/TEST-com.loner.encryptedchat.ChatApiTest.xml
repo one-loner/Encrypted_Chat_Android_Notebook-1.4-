@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.loner.encryptedchat.ChatApiTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-15T17:35:49" hostname="MacBook-Pro-Andrey.local" time="0.314">
+  <properties/>
+  <testcase name="fileEnvelopeIsFetchedAndCached" classname="com.loner.encryptedchat.ChatApiTest" time="0.298"/>
+  <testcase name="cookiesAndCsrfAreIsolatedPerRoom" classname="com.loner.encryptedchat.ChatApiTest" time="0.013"/>
+  <testcase name="sessionRevocationRaisesAuthError" classname="com.loner.encryptedchat.ChatApiTest" time="0.003"/>
+  <testcase name="httpsEndpointNormalization" classname="com.loner.encryptedchat.ChatApiTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+Matches v1 certificate; supports API 24 APK verification.
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+Signer #1 certificate SHA-256 digest: d4798af555516e1284279dfdf12e431d6493449e0ef9aab419bd7b745c073967
+Signer #1 certificate SHA-1 digest: 8e75b9822a90d08974bf59acc3ab7107764727e0
+Signer #1 certificate MD5 digest: 2bd1696c326861be284b99191c861b66
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 5fc2d9b2ef6c16231d5d007c989385984ed3b5fc6afcef3573a0c45ba5bae991
+Signer #1 public key SHA-1 digest: 316055d3f7e17a5c980eae3693dc74cc0472306c
+Signer #1 public key MD5 digest: 4b82d4b168405dcd9aeea2fc595df571

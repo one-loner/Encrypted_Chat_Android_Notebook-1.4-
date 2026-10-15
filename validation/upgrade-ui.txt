@@ -1,0 +1,1 @@
+PASS: v1 app password still unlocks the updated app; v1 named key Demo-key remains visible.

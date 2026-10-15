@@ -1,0 +1,11 @@
+
+com.loner.encryptedchat.LegacyMigrationDeviceTest:.
+com.loner.encryptedchat.NotebookDeviceTest:...
+com.loner.encryptedchat.UiDeviceTest:...
+com.loner.encryptedchat.VaultDeviceTest:....
+
+Time: 69.906
+
+OK (11 tests)
+
+
